@@ -1,0 +1,272 @@
+html{
+	scroll-behavior: smooth;
+}
+body{
+	font-family: product sans;
+	color: white;
+
+	background-image: url("../images/blackbg.jpg");
+	background-image: url("https://source.unsplash.com/1920x1080/?black");
+	background-color: black;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	/*position: fixed;*/
+	background-size: cover;
+}
+
+/**************global***************/
+
+.highlightred{
+	color: red;
+	font-weight: bolder;
+}
+progress{
+	height: 15px;
+}
+a{
+	text-decoration: none;
+	text-decoration-color: default;
+	color: grey;
+}
+a:hover,a:active,a:visited{
+	color: grey;
+}
+
+/****************header*******************/
+header{
+
+	/*background-color: black;*/
+	position: fixed;
+	z-index: 1000;
+	
+
+	max-width: 97%;
+	height: 70px;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	margin-top: 20px;
+
+}
+.blurforhead{
+	backdrop-filter: blur(5px);
+	background-color: rgba(0,0,0, 0.2); /* Black w/opacity/see-through */
+  	position: absolute;
+	height: 109%;
+  	width: 100%;
+  	border-radius: 15px;
+
+
+	margin-left: auto;
+	margin-right: auto;
+	filter: drop-shadow(1px 1px 5px black);
+}
+.headcontainer{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 1000;
+}
+.headerleft{
+	margin-left: 20px;
+	color: grey;
+}
+.headerright{
+	margin-right: 30px;
+	width: 450px;
+	font-size: 20px;
+	justify-content: space-between;
+}
+.headerright li{
+	display: flex;
+	list-style: none;
+
+	
+}
+.headerright ol{
+	color: grey;
+
+	border-bottom: solid;
+	border-color: grey;
+	border-radius: 10px;
+	border-width: 0.5px;
+
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 7px;
+	padding-top: 8px;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+/****************headercompletes*******************/
+
+/****************section1*******************/
+.firstsection{
+	margin-top: 15%;
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+}
+.centertext{
+	text-align: center;
+	font-size: 80px;
+	font-weight: bolder;
+}
+.centertext p{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	filter: drop-shadow(3px 5px 7px black);
+}
+.section1des{
+	text-align: left;
+	font-size: 25px;
+	font-weight: normal;
+
+	width: 320px;
+
+	border-left-style: solid;
+	border-left-color: red;
+	border-radius: 5px;
+	border-width: 5px;
+
+	padding-left: 30px;
+	margin: auto;
+	-webkit-text-stroke: 0px black;
+
+}
+
+
+/****************section1completes*******************/
+/****************section2*******************/
+
+.blur{
+	backdrop-filter: blur(20px);
+	background-color: rgba(0,0,0, 0.2); /* Black w/opacity/see-through */
+  	position: absolute;
+	height: 107%;
+  	width: 98%;
+
+  	border-color: rgba(255,255,255,0.2);
+  	border-style: solid;
+	border-radius: 20px;
+
+	padding-bottom: 50px;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.divbetdetailsandpic{
+	position: relative;
+	display: flex;
+	flex: 1 1 auto;
+	/*background-color: #383838;*/
+	margin-top: 290px;
+
+	padding-bottom: 50px;
+	border-radius: 20px;
+}
+.divpicleft{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+
+	margin-top: 55px;
+}
+
+.forpicture img{
+	/*height: 250px;*/
+	width: 250px;
+	object-fit: cover;
+	border-radius: 25px;
+	filter: drop-shadow(1px 1px 10px black);
+	margin-left: 35%;
+}
+.fordetails{
+	margin-top: 25px;
+	padding-left: 25%;
+}
+.fordetails h4{
+	font-size: 23px;
+	font-weight: bolder;
+	color: red;
+	margin-bottom: 5px;
+}
+.fordetails p{
+	font-size: 20px;
+	padding-left: 15px;
+	margin: 15px;
+}
+
+.divdetailsright{
+	max-width: 45%;
+	padding-right: 50px;
+	padding-left: 50px;
+	margin-top: 45px;
+	font-size: 20x;
+}
+.divdetailsright h2{
+	color: red;
+	font-weight: bolder;
+	font-size: 35px;
+}
+.divdetailsright p{
+	line-height: 1.5em;
+	font-size: 23px;
+}
+/****************section2completes*******************/
+
+/****************section3*******************/
+
+.languages h2{
+	font-size: 45px;
+	margin-left: 10%;
+}
+
+.languages{
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+.langrow{
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.langbox{
+	text-align: center;
+	background-color: black;
+	background-image: url("../images/language-card-bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	border-radius: 25px;
+	filter: drop-shadow(1px 1px 5px red);
+	width: 250px;
+
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+}
+.langbox img{
+	height: 150px;
+	filter: drop-shadow(0px 0px 10px black);
+}
+.langbox h3{
+	color: white;
+}
+
+
+
+
+/****************section3completes*******************/
